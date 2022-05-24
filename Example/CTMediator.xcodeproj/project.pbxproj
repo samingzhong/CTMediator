@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		097D063000C87F2DD2E2DF99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		097D063000C87F2DD2E2DF99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1A85B2F9ADBE741A3DE5B62B /* Pods-CTMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CTMediator_Tests/Pods-CTMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D1009F3DD9B6F5F2638B924 /* Pods-CTMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-CTMediator_Example/Pods-CTMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		35E888819E21C2CBE732AAAA /* Pods-CTMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-CTMediator_Example/Pods-CTMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,10 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61F341A21CA18110F15D0458 /* Pods-CTMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-CTMediator_Tests/Pods-CTMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		809F510A24EE64EE1C342FE1 /* CTMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CTMediator.podspec; path = ../CTMediator.podspec; sourceTree = "<group>"; };
+		809F510A24EE64EE1C342FE1 /* CTMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CTMediator.podspec; path = ../CTMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B917F75429650F4A851F4FA /* Pods_CTMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE858F93ADCE14E3628299D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AE858F93ADCE14E3628299D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				1A85B2F9ADBE741A3DE5B62B /* Pods-CTMediator_Tests.debug.xcconfig */,
 				61F341A21CA18110F15D0458 /* Pods-CTMediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
